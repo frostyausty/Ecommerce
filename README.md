@@ -1,17 +1,19 @@
 # Ecommerce
 
-GIVEN a functional Express.js API
-<!-- WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize -->
 
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
+## Description
 
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
+This repo contains the back end portion of an ecommerce site that uses an Express.js API to interact with a MySQL database using the Sequelize package. First I established a connection to the database using Sequelize. Next I created the models for each table in the database and added associations to connect them to each other. Then I created the get routes as well as the create, update, and delete routes for each data model. Below is a link that shows each route functioning. 
 
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
 
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete data in my database
+## Walkthrough video
+
+
+
+## Link to GitHub Repo
+https://github.com/frostyausty/Ecommerce 
+
+
+### Collaboration
+
+Made in collaboration with Nate Derenne.
